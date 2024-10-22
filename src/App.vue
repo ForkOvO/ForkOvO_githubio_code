@@ -4,10 +4,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="ForkOvO logo" class="logo" src="./assets/icon.png" width="125" height="125" />
+    <a href="https://github.com/ForkOvO/QtDesktopTools" target="_blank">
+      <img alt="ForkOvO logo" class="logo" src="./assets/icon.png" width="125" height="125" />
+    </a>
 
     <div class="wrapper">
-      <HelloWorld msg="测试打包Vue3到github.io" />
+      <HelloWorld msg="ForkOvO" />
     </div>
   </header>
 </template>
@@ -18,8 +20,6 @@ header {
 }
 
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
   border-radius: 50%;
   border: 1px solid #ccc;
 }
