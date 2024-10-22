@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="ForkOvO logo" class="logo" src="./assets/icon.png" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="测试打包Vue3到github.io" />
@@ -20,6 +20,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
 }
 
 @media (min-width: 1024px) {
