@@ -2,6 +2,7 @@
   <div class="app">
     <Sidebar class="sidebar"/>
     <RouterView/>
+    <a href="https://github.com/ForkOvO/ForkDesktop" target="_blank">Github</a>
   </div>
 </template>
 
@@ -20,5 +21,14 @@
     bottom: 0;
     /* 渐变背景 */
     background: linear-gradient(to right top, #14D2DA, #F035FC);
+  }
+
+  .sidebar{
+    position: absolute;
+    top: 100;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: #fff;
   }
 </style>
